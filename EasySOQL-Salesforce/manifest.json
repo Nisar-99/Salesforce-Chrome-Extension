@@ -1,0 +1,15 @@
+{
+	"name": "EasySOQL-Salesforce",
+	"description": "Salesforce Easy SOQL",
+	"version": "1.0.0",
+	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+	"permissions": [ "activeTab", "cookies", "https://*.force.com/*", "https://*.salesforce.com/*" ],
+	"browser_action": {
+      "default_popup": "popup.html"
+    },
+	"background": {
+  		"scripts": [ "js/background.js" ]
+   	},
+    "web_accessible_resources": [],
+    "manifest_version": 2
+}
